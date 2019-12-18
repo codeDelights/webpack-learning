@@ -1,12 +1,11 @@
 import wrap from './sendMessage';
 require('./style.css');
 
-wrap('I Love Node');
+wrap('I Love Node and Angular');
 
 class Person {
     constructor() {
-        console.log('Classes are love!!!');
-        
+        console.log('Classes are love!!!');  
     }
 }
 
